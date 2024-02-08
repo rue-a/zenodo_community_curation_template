@@ -1,0 +1,1 @@
+This repository contains the source files for the Zenodo [Community Curation Template Website](https://rue-a.github.io/zenodo_community_curation_template/).
