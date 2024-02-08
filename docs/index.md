@@ -2,7 +2,7 @@
 
 > :warning: *work in progress*
 
-# Zenodo Curation Policy Template
+# `Zenodo Curation Policy Template`
 
 > Text boxes like this one are comments and can be deleted in the actual policy. Text, `marked like this` has to be adjusted to your needs. Apart from this, anything in this document can and should be adjusted to your needs.
 
