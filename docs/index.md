@@ -1,7 +1,3 @@
----
-markdown: GFM
----
-
 > :warning: *work in progress*, [https://github.com/rue-a/zenodo_community_curation_template](https://github.com/rue-a/zenodo_community_curation_template)
 
 # Zenodo Curation Policy Template
