@@ -57,7 +57,7 @@ a {
 a:hover,
 a:focus {
   color: #069;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 a small {
@@ -87,6 +87,7 @@ code,
 pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: #333;
+  background: #c2c2c2;
 }
 
 pre {
