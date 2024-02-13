@@ -37,8 +37,9 @@ Any dataset has to be provided as a compressed ZIP-file. Ideally, the contents o
 - Add a file named *LICENSE.txt*, containing the license text, to the root directory (uppercase is allowed here).
 - Add a file named *[CITATION.cff](https://citation-file-format.github.io/)*, containig citation information, to the root directory (uppercase is allowed here).
 
+> The *README*-files could be replaced by more formalized metadata files, e.g., in the YAML or JSON format. [This has automation potential](https://zenodo.org/records/10069113).
 
-Assume the following *README.md* is part of a sub-directory, which also contains a data file (*data.csv*), a python script (*process_inputs.py*) and another directory (*input*).
+**README-Template:** Assume the following *README.md* is part of a sub-directory, which also contains a data file (*data.csv*), a python script (*process_inputs.py*) and another directory (*input*).
 
 ```md
 # README
