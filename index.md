@@ -37,7 +37,7 @@ Any dataset has to be provided as a compressed ZIP-file. Ideally, the contents o
 - Add a file named *LICENSE.txt*, containing the license text, to the root directory (uppercase is allowed here).
 - Add a file named *[CITATION.cff](https://citation-file-format.github.io/)*, containig citation information, to the root directory (uppercase is allowed here).
 
-> The *README*-files could be replaced by more formalized metadata files, e.g., in the YAML or JSON format. [This has automation potential](https://zenodo.org/records/10069113).
+> The *README*-files could be replaced by more formalized metadata files, e.g., by YAML or JSON files. [This has automation potential](https://zenodo.org/records/10069113).
 
 **README-Template:** Assume the following *README.md* is part of a sub-directory, which also contains a data file (*data.csv*), a python script (*process_inputs.py*) and another directory (*input*).
 
@@ -58,7 +58,7 @@ __additional information__: ...
 
 | name | datatype | unit | description |
 |-|-|-|-|
-| Column 1 | ISO 8601 DateTime String | None | ... | 
+| Column 1 | ISO 8601 DateTime String (YYYYMMDDThhmmss) | None | ... | 
 | Column 2 | double | Kelvin | Temperatur difference between ... |
 | ... | ... | ... | ... |
 
@@ -83,7 +83,7 @@ Providing **the event's date is mandatory**. Add a new date with the type "Other
 
 Attach the approximate duration and required skills to the record's *Description* field:
 
-*Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.*
+*--- brief description of the lesson ---*
 
 ***Duration:** 60' <br>
 **Required proficiency:** None*
