@@ -2,4 +2,4 @@ remote_theme: pages-themes/minimal
 plugins:
 - jekyll-remote-theme
 - jemoji
-title: [Zenodo Curation Policy Template]
+title: Zenodo Curation Policy Template
