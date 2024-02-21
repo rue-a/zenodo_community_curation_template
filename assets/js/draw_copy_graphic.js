@@ -4,7 +4,7 @@ function draw_initial_canvas(lightness) {
     const ctx = canvas.getContext("2d");
 
     // Set the background color
-    ctx.fillStyle = `hsl(204, 70%, ${lightness}%)`; // You can replace this with any color code or name
+    ctx.fillStyle = `hsl(220, 90%, ${lightness}%)`; // You can replace this with any color code or name
 
     // Draw the rectangle
     ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -13,12 +13,13 @@ function draw_initial_canvas(lightness) {
     ctx.fillStyle = "#fff"; // Text color
     ctx.font = "24px 'Inter', sans-serif"; // Font size and type
     ctx.letterSpacing = "5px";
-    ctx.textAlign = "center";
+    ctx.textAlign = "right";
     ctx.textBaseline = "middle";
 
     // Text to be displayed
     const lines = [
-        "copy",
+        "click",
+        "to copy",
         "template",
         "without",
         "comments"
@@ -26,7 +27,7 @@ function draw_initial_canvas(lightness) {
 
     // Get the center coordinates of the canvas
     const lineheight = 30;
-    const centerX = canvas.width / 2
+    const centerX = canvas.width - 10
     const centerY = canvas.height / 2 - (lines.length - 1) * lineheight / 2;
 
 
@@ -38,7 +39,7 @@ function draw_initial_canvas(lightness) {
 
 }
 
-function draw_fade() {
+function draw_fade(target_lightness) {
     // Get the canvas element and its context
     const canvas = document.getElementById("copy-graphic");
     const ctx = canvas.getContext("2d");
@@ -55,7 +56,7 @@ function draw_fade() {
         lightness -= 2; // Adjust the value to control the speed of fade-out
 
         // Continue the animation until the opacity is below 0
-        if (lightness > 53) {
+        if (lightness > target_lightness) {
             requestAnimationFrame(animate);
         }
     }
