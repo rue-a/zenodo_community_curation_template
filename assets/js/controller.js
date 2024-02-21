@@ -1,4 +1,4 @@
-draw_initial_canvas();
+draw_initial_canvas(53);
 
 function click_canvas() {
     copySectionContents();
