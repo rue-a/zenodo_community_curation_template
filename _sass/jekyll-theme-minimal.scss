@@ -4,7 +4,7 @@
 body {
   background-color: #fff;
   padding: 50px;
-  font: 14px/1.5 "Helvetica Neue", Helvetica, "Noto Sans", Arial, sans-serif;
+  font: 14px/1.5 Inter, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
 }
@@ -49,10 +49,15 @@ h6 {
   color: #494949;
 }
 
+#canvas-container:hover {
+  cursor: pointer;
+}
+
 a {
   color: #267CB9;
   text-decoration: none;
 }
+
 
 a:hover,
 a:focus {
@@ -60,12 +65,14 @@ a:focus {
   text-decoration: underline;
 }
 
+
 a small {
   font-size: 11px;
   color: #777;
   margin-top: -0.3em;
   display: block;
 }
+
 
 a:hover small {
   color: #777;
@@ -85,7 +92,7 @@ blockquote {
 
 code,
 pre {
-  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family: "Liberation Mono", "DejaVu Sans Mono";
   color: #333;
   background: #EFF1F3;
 }
