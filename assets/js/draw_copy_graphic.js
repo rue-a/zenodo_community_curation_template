@@ -12,15 +12,15 @@ function draw_initial_canvas(lightness) {
     // Set the text properties
     ctx.fillStyle = "#fff"; // Text color
     ctx.font = "24px 'Inter', sans-serif"; // Font size and type
-    ctx.letterSpacing = "5px";
+    ctx.letterSpacing = "3px";
     ctx.textAlign = "right";
     ctx.textBaseline = "middle";
 
     // Text to be displayed
     const lines = [
-        "click",
-        "to copy",
-        "template",
+        "click to copy",
+        "template as",
+        "markdown",
         "without",
         "comments"
     ];

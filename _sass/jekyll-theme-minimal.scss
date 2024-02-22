@@ -3,7 +3,7 @@
 body {
   background-color: #fff;
   padding: 50px;
-  font: 14px/1.5 Inter, Arial, sans-serif;
+  font: 14px/1.5 Work-Sans, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
 }
@@ -16,6 +16,7 @@ h5,
 h6 {
   color: #222;
   margin: 0 0 20px;
+  line-height: 1.1;
 }
 
 p,
@@ -27,25 +28,18 @@ dl {
   margin: 0 0 20px;
 }
 
-h1,
-h2,
-h3 {
-  line-height: 1.1;
-}
+
 
 h1 {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 h2 {
-  color: #393939;
+  font-size: 28px;
 }
 
-h3,
-h4,
-h5,
-h6 {
-  color: #494949;
+h3 {
+  font-size: 20px;
 }
 
 #canvas-container:hover {
@@ -91,12 +85,8 @@ blockquote {
 
 code,
 pre {
-  font-family: "Liberation Mono", "DejaVu Sans Mono";
+  font-family: "Fira Mono", 'Courier New', Courier, monospace;
   color: #333;
-  background: #EFF1F3;
-}
-
-.highlight {
   background: #EFF1F3;
 }
 
@@ -146,11 +136,18 @@ kbd {
   vertical-align: middle;
 }
 
-header {
+header,
+footer {
   width: 270px;
   float: left;
   position: fixed;
+  text-align: right;
   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+footer {
+  bottom: 50px;
 }
 
 ul.downloads {
@@ -218,6 +215,7 @@ section {
   width: 500px;
   float: right;
   padding-bottom: 50px;
+  text-align: justify;
 }
 
 small {
@@ -231,13 +229,6 @@ hr {
   margin: 0 0 20px;
 }
 
-footer {
-  width: 270px;
-  float: left;
-  position: fixed;
-  bottom: 50px;
-  -webkit-font-smoothing: subpixel-antialiased;
-}
 
 @media print,
 screen and (max-width: 960px) {

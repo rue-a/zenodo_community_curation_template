@@ -7,10 +7,12 @@ function copySectionContents() {
             // Remove blockquotes from the content
             const contentWithoutBlockquotes = content.replace(/^>.*$/gm, '');
 
+
+            // Copy the rendered HTML content to the clipboard
             navigator.clipboard.writeText(contentWithoutBlockquotes)
                 .then(() => {
                     // Success callback
-                    // alert('Content copied to clipboard!');
+                    // alert('Rendered HTML copied to clipboard!');
                 })
                 .catch(error => {
                     // Error callback
