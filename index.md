@@ -16,7 +16,7 @@ Any dataset has to be provided as a compressed ZIP-file. Ideally, the contents o
 
 #### Contents of the ZIP-file
 
-- Provide every file in a non-proprietary format, if possible.
+- Provide every file in a [non-proprietary format](https://lib.guides.umbc.edu/c.php?g=728911&p=5872066), if possible.
 - Include or link to any auxiliary file that was used to produce the data (scripts, ontologies, ...).
 - File names may only contain the 26 lowercase letters of the *[ISO basic Latin alphabet](https://www.wikidata.org/wiki/Q5974462)*, *[arabic numerals](https://www.wikidata.org/wiki/Q29961325)*, the *[hyphen-minus](https://www.wikidata.org/wiki/Q617884)* (-), and the *[underscore](https://www.wikidata.org/wiki/Q11199)* (_). A dot (.) may only be used to separate filename from file extension. Use the underscore as semantically stronger separating than the hyphen-minus. Avoid using more than 100 characters in a filename.
 - Add a Readme file to the root directory and each sub-directory. In their respective directory, the Readme files should briefly describe every auxiliary-file and directory, and comprehensively describe any data-file. Readme files should be provided in the [Markdown file format](https://daringfireball.net/projects/markdown/basics) (`README.md`) or as plain text file (`README.txt`).
