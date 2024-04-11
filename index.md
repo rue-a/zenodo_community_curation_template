@@ -20,8 +20,8 @@ Any dataset has to be provided as a compressed ZIP-file. Ideally, the contents o
 - Include or link to any auxiliary file that was used to produce the data (scripts, ontologies, ...).
 - File names may only contain the 26 lowercase letters of the *[ISO basic Latin alphabet](https://www.wikidata.org/wiki/Q5974462)*, *[arabic numerals](https://www.wikidata.org/wiki/Q29961325)*, the *[hyphen-minus](https://www.wikidata.org/wiki/Q617884)* (-), and the *[underscore](https://www.wikidata.org/wiki/Q11199)* (_). A dot (.) may only be used to separate filename from file extension. Use the underscore as semantically stronger separating than the hyphen-minus. Avoid using more than 100 characters in a filename.
 - Add a Readme file to the root directory and each sub-directory. In their respective directory, the Readme files should briefly describe every auxiliary-file and directory, and comprehensively describe any data-file. Readme files should be provided in the [Markdown file format](https://daringfireball.net/projects/markdown/basics) (`README.md`) or as plain text file (`README.txt`).
-- Add a license file named `LICENSE.txt`, containing the license text, to the root directory.
-- Add a citation information file named [`CITATION.cff`](https://citation-file-format.github.io/), containig citation information, to the root directory.
+- Add a license file named [`LICENSE.txt`](https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/) to the root directory.
+- Add a citation information file named [`CITATION.cff`](https://citation-file-format.github.io/) to the root directory.
 
 > The Readme files could be replaced by more formalized metadata files, e.g., by YAML or JSON files. [This has automation potential](https://zenodo.org/records/10069113).
 
