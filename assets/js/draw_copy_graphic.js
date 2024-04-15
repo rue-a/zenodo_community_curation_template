@@ -18,11 +18,10 @@ function draw_initial_canvas(lightness) {
 
     // Text to be displayed
     const lines = [
-        "click to copy",
+        "click",
+        "to copy",
         "template as",
         "markdown",
-        "without",
-        "comments"
     ];
 
     // Get the center coordinates of the canvas

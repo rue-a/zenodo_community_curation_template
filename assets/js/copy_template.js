@@ -1,3 +1,5 @@
+
+
 function copySectionContents() {
     // Get the first section element on the page
     // Fetch the content of the local file (index.md)
@@ -7,8 +9,8 @@ function copySectionContents() {
             // Remove blockquotes from the content
             const contentWithoutBlockquotes = content.replace(/^>.*$/gm, '');
 
+            // htmlContent = marked.parse(contentWithoutBlockquotes)
 
-            // Copy the rendered HTML content to the clipboard
             navigator.clipboard.writeText(contentWithoutBlockquotes)
                 .then(() => {
                     // Success callback
