@@ -56,6 +56,8 @@ Fill the *Conference* block if the presentation was given at a conference.
 
 ### Publication
 
+\-
+
 ### Software
 
 The fields of the __*Software*__ block are __mandatory__.
