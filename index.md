@@ -1,12 +1,10 @@
-> :warning: *work in progress*
-
 # `Zenodo Curation Policy Template`
 
 > Text boxes like this one are comments and should be deleted in the actual policy. 
 
 This is the curation policy of the *\<Chair of ... of TU Dresden\>*. Submitted records have to adhere to the rules defined below. Community curators have the right apply changes to the metadata of your record, request you to update your record according to the rules below or reject your submission. The policy defines general requirements and specifies them further by record type.
 
-## General
+### General Requirements
 
 When submitting a record, the metadata fields __*Description*__ and __*Licenses*__ are **mandatory**.
 
@@ -46,6 +44,8 @@ Thoroughly describe the purpose of the model. Use the relation *Is described by*
 
 \-
 
+> `-` denotes that no more than the general requirements are necessary.
+
 ### Poster
 
 Fill the *Conference* block if the poster was shown at a conference.
@@ -60,7 +60,7 @@ Fill the *Conference* block if the presentation was given at a conference.
 
 ### Software
 
-The fields of the __*Software*__ block are __mandatory__.
+The fields of the __*Software* block__ are __mandatory__.
 
 ### Computational Notebook
 
