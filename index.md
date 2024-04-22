@@ -21,15 +21,15 @@ Any dataset has to be provided as a compressed ZIP-file. Ideally, the contents o
 - Add a license file named [`LICENSE.txt`](https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/) to the root directory.
 - Add a citation information file named [`CITATION.cff`](https://citation-file-format.github.io/) to the root directory.
 
-> The Readme files could be replaced by more formalized metadata files, e.g., by YAML or JSON files. [This has automation potential](https://zenodo.org/records/10069113).
+> The Readme files could be replaced by formalized metadata files. See, e.g., [RO-Crate](https://www.researchobject.org/ro-crate/) or [Automatic Generation of Interoperable Scientific Data – A Use Case with Electrochemistry Data](https://zenodo.org/records/10069113).
 
 ### Event
 
-Providing **the event's date is mandatory**. Add a new date with the type "Other" and the description "Date of the event" to the *Dates* field.
+Providing the **date of the event is mandatory**. Add a new date of the type "Other" and with the description "Date of the event" to the *Dates* field.
 
 ### Lesson
 
-Attach the approximate duration and required skills to the record's *Description* field:
+Attach the approximate duration and required skills to the *Description* field:
 
 *--- brief description of the lesson ---*
 
