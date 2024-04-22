@@ -8,7 +8,7 @@ Below you find a table with comments on a selection of Metadata fields. Please r
 
 | Field | Comment |
 |-|-|
-| Creators | When entering a new creator, try to identify them by their OCRID iD. This automatically fills the fields *family name*, *given names* and *affiliations* if available at ORCID. We encourage you to register an [ORCID iD](https://orcid.org/). <br>When entering an affiliation, check if the institution is registered at [ROR](https://ror.org/) and enter the affiliation accordingly if so. An affiliation is connected to the ROR, if the symbol (<img src="./assets/img/ror_low.png" alt="Description" style="height:16px; transform: translateY(3px);"/>) appears of the left of its name . You can check for this in the record's preview. In the *Affiliations* field `TU Dresden` is correctly identified by the string `TU Dresden (TUD)`.|
+| Creators | When entering a new creator, try to identify them by their OCRID iD. This automatically fills the fields *family name*, *given names* and *affiliations* if available at ORCID. We encourage you to register an [ORCID iD](https://orcid.org/). <br>When entering an affiliation, check if the institution is registered at [ROR](https://ror.org/) and enter the affiliation accordingly if so. An affiliation is connected to the ROR, if the ROR-symbol appears of the left of its name. You can check for this in the record's preview. In the *Affiliations* field `TU Dresden` is correctly identified by the string `TU Dresden (TUD)`.|
 | Description | **Mandatory**. Briefly describe the records content. Comprehensive explanations can be distributed via *README*-files.
 | License | **Mandatory**. We recommend the default license *Creative Commons Attribution 4.0 International*. The [CC License Chooser](https://chooser-beta.creativecommons.org/) might help to find another license.
 | Contributors | In Zenodo a [Contributor is defined as](https://datacite-metadata-schema.readthedocs.io/en/4.5/properties/contributor/#id1) *"The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource."* Contributors are not included in the academic citation.|
@@ -19,9 +19,9 @@ Below you find a table with comments on a selection of Metadata fields. Please r
 
 # README-Example
 
-Assume the following *README.txt* is part of a sub-directory, which also contains a data file (*data.csv*), a python script (*process_inputs.py*) and another directory (*input*).
+Assume the following *README.txt* is part of a sub-directory, which contains a data file (*data.csv*), a python script (*process_inputs.py*) and another directory (*input*).
 
-
+Each file/directory is described by the five sections: TYPE (one of: data file, auxiliary file or directory), DESCRIPTION, PROVENANCE, ADDITIONAL_INFORMATION and VARIABLES. TYPE and DESCRIPTION are mandatory.
 
 
 ```
@@ -49,11 +49,11 @@ VARIABLES
 _____________________________________________________
 name        datatype          unit        description
 -----------------------------------------------------
-Column 1    ISO 8601          None        ...
+time        ISO 8601          None        ...
             DateTime String 
             (YYYYMMDDThhmmss) 
 -----------------------------------------------------
-Column 2    double            Kelvin      Temperatur 
+delta_T     double            Kelvin      Temperature 
                                           difference
                                           between ...
 -----------------------------------------------------

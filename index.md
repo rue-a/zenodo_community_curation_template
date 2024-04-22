@@ -8,7 +8,7 @@ This is the curation policy of the *\<Chair of ... of TU Dresden\>*. Submitted r
 
 ## General
 
-When submitting a record, the metadata fields ***Description*** and ***Licenses*** are **mandatory**.
+When submitting a record, the metadata fields __*Description*__ and __*Licenses*__ are **mandatory**.
 
 ### Dataset
 
@@ -40,19 +40,36 @@ Attach the approximate duration and required skills to the record's *Description
 
 ### Model
 
+Thoroughly describe the purpose of the model. Use the relation *Is described by* in the *Related works* block to reference a describing publication.
+
 ### Physical object
+
+\-
 
 ### Poster
 
+Fill the *Conference* block if the poster was shown at a conference.
+
 ### Presentation
+
+Fill the *Conference* block if the presentation was given at a conference.
 
 ### Publication
 
 ### Software
 
+The fields of the __*Software*__ block are __mandatory__.
+
 ### Computational Notebook
+
+Upload an executed and a blank version of the notebook. Briefly describe the purpose/outputs and the conditions on the inputs of the notebook. 
+
+<!-- If published, reference the input (**) and output (*Related Works* ⇾ *Compiles*) data used by the executed notebook.  -->
 
 ### Video/Audio
 
+\-
+
 ### Workflow
 
+\-
