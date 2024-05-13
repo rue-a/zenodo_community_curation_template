@@ -8,7 +8,7 @@ This is the curation policy of the *\<Chair of ... of TU Dresden\>*. Submitted r
 
 When submitting a record, the metadata fields __*Description*__ and __*Licenses*__ are **mandatory**.
 
-### Dataset
+### Specific Requirements for Dataset
 
 Any dataset has to be provided as a compressed ZIP-file. Ideally, the contents of this ZIP-file are self-explanatory to the extent that anyone can use the dataset without additional information.
 
