@@ -44,8 +44,6 @@ Thoroughly describe the purpose of the model. Use the relation *Is described by*
 
 \-
 
-> `-` denotes that no more than the general requirements are necessary.
-
 ### Poster
 
 Fill the *Conference* block if the poster was shown at a conference.
